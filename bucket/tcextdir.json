@@ -5,7 +5,7 @@
     "url": "https://bluesoft.hu/software/tcextDir/Total_Commander_extDir_v1.6.0.5_utility.zip",
     "hash": "3BC2F3274B6B9BFE931603E723584252E45A4C8F9F753FE0D8AA4DDDD2A60686",
     "depends": [
-        "scoop-ques/totalcmd"
+        "werkzeuge/totalcmd"
     ],
     "pre_install": [
         "New-Item -Path \"$dir\\tc extDir.ini\" -ItemType \"file\" | Out-Null"
